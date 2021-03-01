@@ -1,0 +1,1 @@
+docker build -f nginx.dockerfile -t api-platform-starter-proxy .
