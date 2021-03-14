@@ -1,5 +1,5 @@
-PORT=8080
 HOST=localhost
+PORT=8080
 
 if [ ! -z $APP_HOST ]
 then

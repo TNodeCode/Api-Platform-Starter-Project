@@ -20,6 +20,15 @@ $ cd api-platform-26
 $ composer req api
 ```
 
+## Pre Setup
+- Change the database URL in ./.env file
+
+## Setup
+
+```bash
+$ sh setup.sh
+```
+
 ## Run application
 
 ```bash
@@ -31,4 +40,13 @@ $ sh run.sh
 
 # Use bash file with varibles
 $ APP_HOST=0.0.0.0 APP_PORT=8080 sh run.sh
+
+# Visit OpenAPI documentation
+$ http://localhost:8080
+```
+
+## Database migrations
+
+```bash
+sh ./scripts/db/migrate.sh
 ```
